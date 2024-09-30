@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+/* Colores de Batman */
+.batman-header {
+    background-color: #1A1A1A; 
+    color: yellow;
+}
+.batman {
+    background-color: #2E2E2E; 
+    color: yellow;
+}
+.batman-text {
+    background-color: #333333; 
+}
+/* Colores de Robin */
+.robin-header {
+    background-color: #990000; 
+    color: yellow;
+}
+.robin {
+    background-color: #006400; 
+    color: yellow;
+}
+.robin-text {
+    background-color: #FF0000; 
+}
+
+.compare {
+    background-color: rgb(222, 222, 49);
+    color: black;
+}
+
+.batman-img, .robin-img {
+    width: 180px;
+    height: auto;
+}

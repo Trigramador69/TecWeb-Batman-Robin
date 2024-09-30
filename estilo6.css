@@ -1,0 +1,78 @@
+body {
+    background-color: black; 
+    color: yellow;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+section {
+    margin: 20px;
+}
+
+p, ul, li {
+    margin: 10px 0;
+}
+
+hr {
+    border: 1px solid yellow;
+}
+
+blockquote {
+    border-left: 4px solid yellow;
+    padding-left: 15px;
+    color: white;
+    font-style: italic;
+}
+
+pre, code {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+address {
+    font-style: normal;
+    color: yellow;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.strong-textoImportante strong {
+    color: cyan;
+}
+
+.enfasis em {
+    color: red;
+}
+
+.resaltado mark {
+    background-color: yellow;
+    color: black;
+}
+
+/* Imagen ASCII de Batman */
+.conservar-formato pre {
+    font-family: monospace;
+    color: lightgray;
+    text-align: center;
+}
+
+.footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
